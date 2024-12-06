@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	
+	<title>Green Connect</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- STYLESHEETS -->
+
+	<link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="style/all.min.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/slick.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/animate.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/style.css" type="text/css" media="all">
+
+
+<style type="text/css">
+
+
+@font-face {
+  font-weight: 400;
+  font-style:  normal;  
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 400;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 500;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 700;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Black.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 900;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BlackItalic.woff2') format('woff2');
+}</style>
+</head>
+
+<body data-gr-c-s-loaded="true">
+    <!-- Toast Notification -->
+<div id="custom-alert" class="toast align-items-center text-bg-warning border-0" role="alert" aria-live="assertive" aria-atomic="true" style="position: fixed; top: 20px; right: 20px; z-index: 1050; display: none;">
+    <div class="d-flex">
+      <div class="toast-body">
+        <span id="custom-alert-message"></span>
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+    <header class="desktop-header-3 fixed-top">
+
+        <div class="container">
+        
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <img class="logo" src="logo.png">
+                <b class="navbar-brand">Green Connect</b> 
+    
+                <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto scrollspy">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#sdg9" class="nav-link">SDG9</a></li>
+                        <li class="nav-item"><a href="#news" class="nav-link">News</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Project</a></li>
+                        <li class="nav-item"><a href="#tasks" class="nav-link">Tasks</a></li>
+                        <li class="nav-item"><a href="#feedback-section" class="nav-link">Thoughts</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+    
+        </div>
+    
+    </header> 
+<main class = "content-3">
+    <section id="home" class="home d-flex align-items-center">
+        <div class="container">
+            <div class="intro">
+                <img src="logo.png" style="width: 300px;border-radius: 50px" class="mb-4">
+
+                <h1 class="mb-2 mt-0">Green Connect</h1>
+				<span class="text-rotating morphext"><span class="animated bounceIn">Empowering Industries; Inspiring Innovation; Building Resilience!</span></span>
+            </div>
+            <div class="parallax" data-relative-input="true" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+
+				<svg width="27" height="29" data-depth="0.3" class="layer p1" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-7.20601px, 17.2034px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block;"><path d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z" fill="#FFD15C" fill-rule="evenodd"></path></svg>
+
+				<svg width="26" height="26" data-depth="0.2" class="layer p2" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-4.80401px, 11.4689px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z" stroke="#FF4C60" stroke-width="3" fill="none" fill-rule="evenodd"></path></svg>
+
+				<svg width="30" height="25" data-depth="0.3" class="layer p3" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-7.20601px, 17.2034px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z" fill="#44D7B6" fill-rule="evenodd"></path></svg>
+
+				<svg width="15" height="23" data-depth="0.6" class="layer p4" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-14.412px, 34.4068px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#FFD15C" fill-rule="evenodd"></rect></svg>
+
+				<svg width="15" height="23" data-depth="0.2" class="layer p5" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-4.80401px, 11.4689px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"></rect></svg>
+
+				<svg width="49" height="17" data-depth="0.5" class="layer p6" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-12.01px, 28.6724px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><g fill="#FF4C60" fill-rule="evenodd"><path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z"></path><path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z"></path></g></svg>
+
+				<svg width="26" height="26" data-depth="0.4" class="layer p7" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-9.60801px, 22.9379px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z" stroke="#FFD15C" stroke-width="3" fill="none" fill-rule="evenodd"></path></svg>
+
+				<svg width="19" height="21" data-depth="0.3" class="layer p8" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-7.20601px, 17.2034px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><rect transform="rotate(-40 6.25252 10.12626)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"></rect></svg>
+
+				<svg width="30" height="25" data-depth="0.3" data-depth-y="-1.30" class="layer p9" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-7.20601px, 17.2034px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z" fill="#6C6CE5" fill-rule="evenodd"></path></svg>
+
+				<svg width="47" height="29" data-depth="0.2" class="layer p10" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-4.80401px, 11.4689px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><g fill="#44D7B6" fill-rule="evenodd"><path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z"></path><path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z"></path></g></svg>
+
+				<svg width="33" height="20" data-depth="0.5" class="layer p11" xmlns="http://www.w3.org/2000/svg" style="transform: translate3d(-12.01px, 28.6724px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: absolute; display: block;"><path d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z" fill="#FFD15C" fill-rule="evenodd"></path></svg>
+
+			</div>
+        </div>
+    </section>
+<!-- section about -->
+<section id="about">
+
+    <div class="container">
+        
+        <!-- section title -->
+        <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">About</h2>
+
+        <div class="spacer" data-height="60" style="height: 60px;"></div>
+        
+        <div class="row">   
+
+            <div class="col-md-9 triangle-left triangle-top-sm">
+                <div class="about  rounded bg-white shadow-dark ">
+                    <div class="row">
+                        <div class=" text  col-md-4">
+                            <!-- about text -->
+                            <p><h3>SDG-9</h3>Sustainable Development Goal 9 emphasizes the importance of building resilient infrastructure, promoting inclusive and sustainable industrialization, and fostering innovation. It aims to bridge disparities in development, boost economic growth, and drive global progress while safeguarding environmental sustainability.</p>
+
+                            <div class="spacer d-md-none d-lg-none" data-height="10" style="height: 10;"></div>
+                        </div>
+                        <div class="text col-md-4">
+                            <!-- about text -->
+                            <p><h3>App</h3>The app serves as a platform to raise awareness, inspire action, and foster collaboration towards achieving Sustainable Development Goal 9. It educates users about resilient infrastructure, sustainable industrialization, and innovation through resources, data, and visualizations. The app showcases success stories, highlights global challenges, and connects individuals, organizations, and policymakers. By providing tools for idea sharing and actionable steps, the app empowers users to contribute to sustainable development and promote economic growth while preserving the environment.</p>
+                            <div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+                        </div>
+                        <div class="text col-md-4">
+                            <!-- Additional column -->
+                            <h3>Key statistics</h3>
+                            <p>-Over 1 billion people lack reliable infrastructure, impeding their development opportunities.</p>
+                            <p>-60% of CO2 emissions come from industrial operations, urging a shift to green practices.</p>
+                            <p>-Nearly 50% of small-scale industries lack access to financial services, slowing their growth.</p>
+                            <p>-Global R&D spending accounts for only 2.3% of GDP, highlighting a gap in innovation.</p>
+                            <div class="spacer d-md-none d-lg-none" data-height="30" style="height: 30px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- row end -->
+
+        <div class="spacer" data-height="70" style="height: 70px;"></div>
+
+    </div>
+    
+</section>
+
+
+<section id="sdg9">
+    <div class="container">
+      <!-- Section Title -->
+      <h2 class="section-title wow fadeInUp">Achieving SDG 9</h2>
+      <div class="spacer" data-height="60"></div>
+  
+      <!-- Educational Content -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Learn About SDG 9</h5>
+              <p class="card-text">
+                Sustainable Development Goal 9 focuses on building resilient infrastructure, promoting inclusive and sustainable industrialization, and fostering innovation to drive economic growth and environmental preservation.
+              </p>
+              <button id="learn-more" class="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Success Stories -->
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Success Stories</h5>
+              <p class="card-text">
+                Discover inspiring stories of how individuals, communities, and organizations are making a difference in achieving SDG 9 worldwide.
+              </p>
+              <button id="success-stories" class="btn btn-success">Explore Stories</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="spacer" data-height="40"></div>
+  
+      <!-- Global Challenges -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Global Challenges</h5>
+              <p class="card-text">
+                Understand the challenges facing resilient infrastructure and sustainable industrialization, such as resource limitations, technology gaps, and climate impacts.
+              </p>
+              <button id="global-challenges" class="btn btn-warning">View Challenges</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Collaboration Tools -->
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Collaborate for Change</h5>
+              <p class="card-text">
+                Share ideas, collaborate with others, and take actionable steps to contribute to sustainable development.
+              </p>
+              <button id="collaborate-tools" class="btn btn-info">Collaborate Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Popup Modal for Content -->
+    <div id="sdg9-modal" class="modal padding-30" style="display: none;">
+      <div class="popup modal-dialog padding-30">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-title"></h5>
+            <span type="button" class="btn-close" id="close-modal">&times;</span>
+          </div>
+          <div class="modal-body" id="modal-content">
+            <!-- Content dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section id="news">
+  <div class="container">
+      <!-- Section Title -->
+      <div class="breaking-news">
+        Breaking News: <span id="breaking-news-text">Global innovation is reshaping industries for a sustainable future!</span>
+    </div>
+    <div class="filters mb-4">
+      <button class="btn btn-outline-primary filter-btn" data-category="all">All</button>
+      <button class="btn btn-outline-success filter-btn" data-category="infrastructure">Infrastructure</button>
+      <button class="btn btn-outline-warning filter-btn" data-category="innovation">Innovation</button>
+      <button class="btn btn-outline-info filter-btn" data-category="industry">Industry</button>
+  </div>
+      <div class="row">
+          <!-- News Card 1 -->
+          <div class="col-md-4 news-card" data-category="infrastructure">
+              <div class="card shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Building Smart Infrastructure for the Future</h5>
+                    <p class="card-text">Innovative infrastructure solutions are paving the way for sustainable cities. Learn how new technologies are making cities more efficient and sustainable.</p>
+                      <button class="btn btn-primary read-more-btn" data-news-id="1">Read More</button>
+                  </div>
+              </div>
+          </div>
+          <!-- News Card 2 -->
+          <div class="col-md-4 news-card" data-category="innovation">
+              <div class="card shadow-sm">
+                  <div class="card-body">
+                      <h5 class="card-title">Innovation in Green Energy</h5>
+                      <p class="card-text">Discover the latest advancements in renewable energy sources, including solar, wind, and battery storage systems, driving the transition to a low-carbon economy.</p>
+                      <button class="btn btn-primary read-more-btn" data-news-id="2">Read More</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 news-card" data-category="industry">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Industry 4.0: Revolutionizing Manufacturing</h5>
+                    <p class="card-text">Learn about the transformative role of digital technologies like IoT, AI, and automation in modernizing manufacturing and improving industrial processes.</p>
+                    <button class="btn btn-primary read-more-btn" data-news-id="3">Read More</button>
+                </div>
+            </div>
+        </div> <div class="col-md-4 news-card" data-category="infrastructure">
+          <div class="card shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Building Resilient Infrastructure Post-Pandemic</h5>
+                  <p class="card-text">As we recover from the global pandemic, the focus is on building resilient, adaptable, and sustainable infrastructure to support communities.</p>
+                  <button class="btn btn-primary read-more-btn" data-news-id="4">Read More</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 news-card" data-category="innovation">
+          <div class="card shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">AI and Automation Driving Industry Transformation</h5>
+                  <p class="card-text">Artificial intelligence and automation are revolutionizing industries, enhancing productivity, and creating new opportunities for growth and development.</p>
+                  <button class="btn btn-primary read-more-btn" data-news-id="5">Read More</button>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 news-card" data-category="industry">
+          <div class="card shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Sustainable Manufacturing Practices</h5>
+                  <p class="card-text">The future of industry lies in sustainable manufacturing. Explore how companies are adopting green practices to reduce waste and energy consumption.</p>
+                  <button class="btn btn-primary read-more-btn" data-news-id="6">Read More</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+          <!-- Add similar cards for other news items -->
+      </div>
+  </div>
+
+  <!-- Modal for News Details -->
+  <div id="news-modal" class="modal">
+      <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <h3 id="news-title"></h3>
+          <p id="news-details"></p>
+      </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <!-- Section Title -->
+    <h2 class="section-title">Our Projects</h2>
+    <div class="spacer" data-height="60"></div>
+
+    <!-- Projects Grid -->
+    <div class="row">
+      <div class="col-md-4 project-card">
+        <div class="image-container">
+          <img src="Madhav.jpg" alt="Project 1" class="img-fluid project-image" data-title="Project 1"/>
+          <span class="image-name">Renewable Energy</span>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="image-container">
+          <img src="Mithul.jpg" alt="Project 2" class="img-fluid project-image" data-title="Project 2"/>
+          <span class="image-name">Autonomous Rail Rapid Transit</span>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="image-container">
+          <img src="Vinoshan.jpg" alt="Project 3" class="img-fluid project-image" data-title="Project 3"/>
+          <span class="image-name">Kite Based Wind Energy</span>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="image-container">
+          <img src="Aadhavan.jpg" alt="Project 4" class="img-fluid project-image" data-title="Project 4"/>
+          <span class="image-name">Biogas Purification Plant</span>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="image-container">
+          <img src="Shashini.jpg" alt="Project 5" class="img-fluid project-image" data-title="Project 5"/>
+          <span class="image-name">Biogas Generator</span>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="image-container">
+          <img src="Harshita.jpg" alt="Project 6" class="img-fluid project-image" data-title="Project 6"/>
+          <span class="image-name">Disadvantages of Organizations</span>
+        </div>
+      </div>
+      <div class="col-md-4 project-card">
+        <div class="image-container">
+          <img src="Nikitha.jpg" alt="Project 7" class="img-fluid project-image" data-title="Project 7"/>
+          <span class="image-name">Safety detection alarm</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popup Modal -->
+  <div id="project-modal1" class="modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       
+          <div class="modal-body">
+            <p>Renewable resources are resources that can replenish themselves or continue to exist even when being consumed. They are considered to have a lesser negative impact on the environment than nonrenewable resources.</p>
+             Solar energy:
+              The most abundant energy resource, which can be used even when it's cloudy. However, it's not always available, such as at night or when it's overcast.</p>
+              <p>Wind energy:
+              Wind turbines generate electricity by converting the kinetic energy of the spinning blades into electric energy. Wind energy has fewer environmental effects than many other energy sources.</p>
+              <p> Hydroelectric power, or hydropower, is a renewable energy source that uses the kinetic energy of flowing water to generate electricity. Dams and diversion structures are used to alter the natural flow of water, which creates an elevation difference that powers the process: 
+  Water flow: Water flows through a pipe, or penstock, inside the dam. 
+  Turbine: The moving water turns a turbine propeller at the end of the penstock. 
+  Generator: The shaft from the turbine turns a metal shaft in an electric generator, which produces electricity. 
+  Electrical grid: The electricity is fed into the electrical grid to power homes, businesses, and industries.</p>
+           </div>
+      </div>
+    </div>
+  </div>
+  <div id="project-modal2" class="modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       
+          <div class="modal-body">
+            <p>This is my model of an Autonomous Rail Rapid Transit (ART) system. It demonstrates how ART operates using sensors to detect nearby objects, ensuring safety and efficiency in transit. The system uses advanced technology, including virtual tracks guided by GPS and sensors, eliminating the need for physical rails. When the sensor detects an object nearby, it sends a signal to stop the vechicle. This model highlights the innovative features of ARTs, such as eco-friendliness, flexibility, and advanced technology for modern transportation.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div id="project-modal3" class="modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       
+          <div class="modal-body">
+            <p>
+              Kite Wind-Based Energy Project harnesses the power of high-altitude winds using a specially designed kite. As the kite moves in the sky, it captures wind energy and converts it into mechanical energy through its tethered motion. This energy is then transmitted to a ground station, where it is converted into electricity. The system is inspired by Benjamin Franklin’s historic kite experiment and modern advancements in airborne wind energy. It demonstrates an innovative, sustainable approach to generating electricity, showcasing how high-altitude winds can complement traditional wind turbines to achieve renewable energy goals.</p>
+           </div>
+      </div>
+    </div>
+  </div>
+  <div id="project-modal4" class="modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       
+          <div class="modal-body">
+            <p>
+              This model demonstrates the process of producing and purifying biogas from organic waste. It begins in the biodigester, where waste decomposes anaerobically to produce raw biogas. The gas is then passed through a water scrubber to remove impurities like carbon dioxide and hydrogen sulfide. An intermediate chamber regulates pressure, and the purified biogas is stored in the final chamber, ready for use. This project highlights how biogas can serve as a clean, renewable energy source while reducing waste and environmental impact. It's a practical solution for sustainable energy production. </p>
+           </div>
+      </div>
+    </div>
+  </div>
+  <div id="project-modal5" class="modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       
+          <div class="modal-body">
+            <p>
+              This project is an eco-friendly, innovative tool which can help reduce waste, pollution, carbon dioxide and methane. The idea is as simple as gathering domestic waste which is then processed in the anaerobic digester to produce natural fuel (or) biogas which can be used for cooking, electricity, gas grid etc.Apart from the fuel we also can utilise the leftover or digestate as compost.</p>
+           </div>
+      </div>
+    </div>
+  </div>
+  <div id="project-modal6" class="modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       
+          <div class="modal-body">
+            <p>The project is about how urbanization causes a large impact on rural areas and the solutions for it. it explores about and aims on how to make sure rural areas and urban areas get equal support and access to resources</p>
+           </div>
+      </div>
+    </div>
+  </div>
+  <div id="project-modal7" class="modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       
+          <div class="modal-body">
+            <p>This is an alarm unit which makes sure that the machines are active and does not have any flaws in
+              it,if there is any problem it will be sent to the control unit,There is one buzzer which alarms when
+              there is a immense emergency,three lights each one assigned for the unit.</p>
+           </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tasks">
+  <div class="container">
+      <!-- Section Title -->
+      <h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Tasks</h2>
+      <div class="spacer" data-height="60" style="height: 60px;"></div>
+
+      <!-- Filters -->
+      <div class="filters mb-4">
+          <button class="btn btn-outline-primary filter-btn" data-category="all">All</button>
+          <button class="btn btn-outline-success filter-btn" data-category="infrastructure">Infrastructure</button>
+          <button class="btn btn-outline-warning filter-btn" data-category="sustainability">Sustainability</button>
+          <button class="btn btn-outline-info filter-btn" data-category="innovation">Innovation</button>
+          <button class="btn btn-outline-secondary info-btn">Info</button>
+      </div>
+
+      <!-- Challenges Grid -->
+      <div class="row" id="challenges-container">
+          <!-- Challenge Card 1 -->
+          <div class="col-md-4 challenge-card" data-category="infrastructure">
+              <div class="card shadow-sm">
+                  <div class="card-body">
+                      <h5 class="card-title">Build Smart Cities</h5>
+                      <p class="card-text">Develop innovative solutions for smart city infrastructure focusing on efficiency and sustainability.</p>
+                      <button class="btn btn-primary participate-btn">Participate</button>
+                  </div>
+              </div>
+          </div>
+          <!-- Challenge Card 2 -->
+          <div class="col-md-4 challenge-card" data-category="sustainability">
+              <div class="card shadow-sm">
+                  <div class="card-body">
+                      <h5 class="card-title">Reduce Carbon Footprint</h5>
+                      <p class="card-text">Design strategies to minimize CO2 emissions in industries.</p>
+                      <button class="btn btn-primary participate-btn">Participate</button>
+                  </div>
+              </div>
+          </div>
+          <!-- Challenge Card 3 -->
+          <div class="col-md-4 challenge-card" data-category="innovation">
+              <div class="card shadow-sm">
+                  <div class="card-body">
+                      <h5 class="card-title">Foster Innovation</h5>
+                      <p class="card-text">Brainstorm and implement innovative industrial technologies.</p>
+                      <button class="btn btn-primary participate-btn">Participate</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section id="feedback-section">
+    <div class="container">
+        <div class="spacer" data-height="80"></div>
+        <h2 class="section-title">Feedback Section</h2>
+      <div id="comments-section">
+        <h3>Comments</h3>
+        <ul id="comments-list" class="list-group">
+          <!-- Comments and replies will be dynamically added here -->
+        </ul>
+        <textarea id="comment-input" class="form-control" placeholder="Write a comment..."></textarea>
+        <button id="add-comment-btn" class="btn btn-primary mt-2">Add Comment</button>
+      </div>
+  
+      <!-- Feedback Section -->
+      <div id="feedback-section">
+        <h3>Feedback</h3>
+        <div id="feedback-list">
+          <!-- Feedbacks will be dynamically added here -->
+        </div>
+        <form id="feedback-form" class="mt-3">
+          <input id="feedback-name" class="form-control mb-2" type="text" placeholder="Your Name" required />
+          <textarea id="feedback-input" class="form-control mb-2" placeholder="Your Feedback" required></textarea>
+          <button type="submit" class="btn btn-success">Submit Feedback</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <!-- Section Title -->
+      <h2 class="section-title text-center">Get in Touch</h2>
+      <p class="section-subtitle text-center">We would love to hear from you. Feel free to reach out to our team members.</p>
+      <div class="spacer" data-height="40"></div>
+  
+      <!-- Contact Team Members -->
+      <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="contact-card">
+            <h5 class="name">Vinoshan Pradeep</h5>
+            <p class="email">vinoshan.pradeep@babajividhyashram.org</p>
+          </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="contact-card">
+            <h5 class="name">Aadhavan Imran</h5>
+            <p class="email">aadhavan.imran@babajividhyashram.org</p>
+          </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="contact-card">
+            <h5 class="name">Sai Krithik</h5>
+            <p class="email">sai.krithik@babajividhyashram.org</p>
+          </div>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="contact-card">
+            <h5 class="name">Mithul Venkatraj</h5>
+            <p class="email">mithul.venkatraj@babajividhyashram.org</p>
+          </div>
+        </div>
+        <!-- Team Member 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="contact-card">
+            <h5 class="name">Madhav Srikrishna</h5>
+            <p class="email">madhav.srikrishna@babajividhyashram.org</p>
+          </div>
+        </div>
+        <!-- Team Member 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="contact-card">
+            <h5 class="name">Nikitha Senthil Nathan</h5>
+            <p class="email">nikitha.senthilnathan@babajividhyashram.org</p>
+          </div>
+        </div>
+        <!-- Team Member 7 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="contact-card">
+            <h5 class="name">Shashini Vimalathithan</h5>
+            <p class="email">shashini.vimalathithan@babajividhyashram.org</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="contact-card">
+              <h5 class="name">Harshitha S G</h5>
+              <p class="email">harshitha.sg@babajividhyashram.org</p>
+            </div>
+          </div>
+    </div>
+</div>  
+  
+      <!-- Contact Form -->
+  </section>w:Leopard: :Trade: :Dough: :TREX: :Adds: 
+  :Control: :Trade: :Buddha: 
+
+
+</main>
+
+<!-- Go to top button -->
+<a href="javascript:" id="return-to-top" style="display: none;">
+<img src="go_to_top.png">
+</a>
+
+<!-- modal -->
+<!-- end modal -->
+
+<!-- SCRIPTS -->
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/infinite-scroll.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/morphext.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<script src="js/custom.js"></script>
+
+  
+
+
+</body>
+
+
+</html>
